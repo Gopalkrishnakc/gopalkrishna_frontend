@@ -1,0 +1,31 @@
+#p1{
+    margin-left: 30px;
+  text-align: left;
+}
+#heading{
+    color: coral;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+th{
+    font-style: initial;
+  font-weight: 400;
+  
+}
+  #btn{
+    color: white;
+    background-color: coral;
+    border-radius: 2px;
+    border: none;
+}
+td{
+ padding: 10px;
+
+}
+.r{
+  accent-color:blue;
+  ;
+
+}
+

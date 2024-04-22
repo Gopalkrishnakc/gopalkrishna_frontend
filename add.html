@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let arr=[112,1255,48,58,8];
+       console.log(arr);
+       arr.push(1);
+
+       arr.unshift(5);
+       arr.shift()
+       arr.pop();
+      let arr1= arr.map((element,index,arr)=>{
+        return arr;
+       })
+       console.log(arr1);
+       let arr2=arr.filter((ele)=>{return ele%2});
+
+ console.log(arr2);
+ var str="gopal"
+ var a= str.split('')
+ console.log(str);
+  console.log(a);
+ 
+ var rev=a.reverse();
+ console.log();
+ var join =rev.join("")
+ console.log(join);
+    </script>
+   
+</body>
+</html>
